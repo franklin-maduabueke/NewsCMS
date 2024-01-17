@@ -1,0 +1,75 @@
+/* CSS Document */
+
+#popper
+{
+	z-index:20000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:0px;
+	background-color:#333333; /*#FF6600*/
+	color:#FFFFFF
+}
+
+div#popUp
+{
+	position:absolute;
+	z-index:25000;
+	background-color:#ADD658;
+	width:350px;
+	height:250px;
+	border:1px solid #FFFFFF;
+}
+
+div#popUpHeadingHolder
+{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	height:30px;
+	font-size:25px;
+	color:#FFFFFF;
+	text-align:left;
+	border-bottom:1px solid #FFFFFF;
+	font-weight:bold;
+}
+
+div.fileObjectHolder
+{
+	width:100%;
+	height:auto;
+	background-color:#999999;
+}
+
+#dlgShadow
+{
+	position:absolute;
+	z-index:23000;
+	background-color:#000000;
+}
+
+div.elementAttachment
+{
+	margin-bottom:15px;
+	background-color:#999999;
+}
+
+div#loading
+{
+	position:absolute;
+	z-index:25000;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+input.fileObject
+{
+	float:left;
+}

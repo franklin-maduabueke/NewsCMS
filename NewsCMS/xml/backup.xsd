@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+
+	<!-- the name element for database, table, columns-->
+	<xs:simpleType name="DBElementName">
+		<xs:restriction base="xs:string">
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="DBDataType">
+		<xs:restriction>
+			<xs:enumeration value="NUMERIC" />
+			<xs:enumeration value="DATETIME" />
+			<xs:enumeration value="STRING" />
+			<xs:enumeration value="BLOB" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!-- the integer type for columns that are of int type-->
+	<xs:element name="DBRowInteger">
+		<xs:restriction base="xs:integer">
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:element>
+	
+	<!-- the string type for columns that are of string types in mysql-->
+	<xs:element name="DBRowString">
+		<xs:restriction base="xs:string">
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:element>
+	
+	<xs:complexType name="DBRowType">
+		<xs:choice>
+			<xs:element name="DBRowInteger" />
+			<xs:element name="DBRowString" />
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:element name="DBColumn">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DBColumnName" type="DBElementName" />
+				<xs:element name="DBDataType" />
+				<xs:element name="DBRow" type="DBRowType" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="DBTable">
+		<xs:sequence>
+			<xs:element name="dbcolumn" type="DBColumn" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:element>
+	
+	<xs:element name="Database">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dbname" type="DBElementName" />
+				<xs:element name="dbtable" type="DBTable" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

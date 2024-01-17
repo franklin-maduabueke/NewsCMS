@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<templates xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com template.xsd"><looknfeel id="newsSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>On World News Today</heading>
+			
+				<subcategoryLink>iiqCu665</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel></templates>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<templates xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com template.xsd"><looknfeel id="lifeAndStyleSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>Fashion &amp; Style</heading>
+			
+				<subcategoryLink>QRo5SSHc</subcategoryLink>
+			</section>
+			
+			<section id="s2">
+				<heading>Relationships</heading>
+			
+				<subcategoryLink>NpwNcwDq</subcategoryLink>
+			</section>
+			
+			<section id="s3">
+				<heading>Africa</heading>
+			
+				<subcategoryLink>mSg6GRKw</subcategoryLink>
+			</section>
+			
+			<section id="s4">
+				<heading>Europe</heading>
+			
+				<subcategoryLink>iiqCu665</subcategoryLink>
+			</section>
+			
+			<section id="s5">
+				<heading>Asia</heading>
+			
+				<subcategoryLink>gR8EizAH</subcategoryLink>
+			</section>
+			
+			<section id="s6">
+				<heading>America</heading>
+			
+				<subcategoryLink>Pc1_SVp3</subcategoryLink>
+			</section>
+			
+			<section id="s7">
+				<heading>more from fashion &amp; style  around the world</heading>
+			
+				<subcategoryLink>Ib5P2DsM</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel></templates>

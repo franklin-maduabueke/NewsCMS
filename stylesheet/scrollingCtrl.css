@@ -1,0 +1,53 @@
+/* CSS Document */
+
+#scrollingCtrlHolder
+{
+	width:980px;
+	height:20px;
+	margin-top:10px;
+}
+#scrollTitle
+{
+	color:#E00000;
+	font-size:13px;
+	width:113px;
+	height:100%;
+	float:left;
+	font-weight:bold;
+}
+#scrollingContent
+{
+	width:730px;
+	height:100%;
+	font-size:13px;
+	float:left;
+	text-align:right;
+	overflow:hidden;
+}
+#scrollingContent a
+{
+	color:#003366;
+	text-decoration:none;
+}
+#scrollingContent a:hover
+{
+	color:#DF0000;
+}
+
+#text_slide {
+  position: relative;
+  overflow: hidden;
+  padding-left:5px;
+  height: 100%;
+  width:auto;
+  text-align:left;
+}
+.content {
+  position: relative;
+  top:0px;
+  left:0px;
+  height:35px;
+  margin-top:0px;
+  width:auto;
+  overflow:hidden;
+}

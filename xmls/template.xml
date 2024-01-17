@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<templates xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com template.xsd"
+>
+<!-- *******************************************************************************
+USERS WILL NOT BE ABLE TO SELECT THIS TEMPLATE WHEN CREATING CATEGORIES. 
+ITS THE HOME PAGE BUT THEY CAN SET THE SECTION AVAILABLE AT ANYTIME THEY WANT
+************************************************************************************ -->
+	<looknfeel id="indexLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					Nigeria Banking Sector
+				</heading>
+			
+				<subcategoryLink>
+					NncXWG_G
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+<!-- ******************************************************** -->
+
+	<looknfeel id="newsLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news Yesterday
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+			
+			<section id="s2">
+				<heading>
+					On the news Tomorrow
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+	
+	<looknfeel id="newsSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news in the next hour
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+<!-- ******************************************************** -->
+
+	<looknfeel id="sportsLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news NExt week
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+	
+	<looknfeel id="sportsSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news in december
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+<!-- ******************************************************** -->
+
+	<looknfeel id="businessLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news October
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+	
+	<looknfeel id="businessSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					On the news January
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+			
+			<section id="s12">
+				<heading>
+					Reading article
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+<!-- ******************************************************** -->
+
+	<looknfeel id="readArticleLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					Reading article
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+			
+			<section id="s2">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+
+<!-- ******************************************************** -->
+	<looknfeel id="lifeAndStyleLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					Reading article
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+			
+			<section id="s2">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s3">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s4">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s5">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s6">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s7">
+				<heading>
+					Dummy section
+				</heading>
+			
+				<subcategoryLink>
+					XXXXXXXX
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+	
+	<!-- ******************************************************** -->
+	<looknfeel id="lifeAndStyleSubcatLook">
+		<sections>
+			<section id="s1">
+				<heading>
+					Reading article
+				</heading>
+			
+				<subcategoryLink>
+					yhgg5678
+				</subcategoryLink>
+			</section>
+			
+			<section id="s2">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s3">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s4">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s5">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s6">
+				<heading>
+					On the world news
+				</heading>
+			
+				<subcategoryLink>
+					9098yhyt
+				</subcategoryLink>
+			</section>
+			
+			<section id="s7">
+				<heading>
+					Dummy section
+				</heading>
+			
+				<subcategoryLink>
+					XXXXXXXX
+				</subcategoryLink>
+			</section>
+		</sections>
+	</looknfeel>
+</templates>

@@ -1,0 +1,7 @@
+DESIGN DOCUMENT
+---------------
+With the files named *Look.xml you have to set the sections that appear in the template of choice found in templates folder.
+Also give each section an id that corresponds to the id of the section in the looknfeel. This is the id that will be
+searched for by that section in order to get the required data the section needs like its heading and the subcategory where
+its news will be pulled from.
+

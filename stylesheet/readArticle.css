@@ -1,0 +1,576 @@
+/* CSS Document */
+
+div#newsLookHeaderHolder
+{
+	width:100%;
+	height:140px;
+}
+div#headerOptionHolder
+{
+	width:1050px;
+	height:13px; /* reset to 28px as before edit*/
+	background-color:#FFFFFF; /* reset to #26BEE7 as before edit*/
+	margin-bottom:5px;
+}
+div#headerAdvertHolder
+{
+	max-width:1000px;
+	max-height:105px;
+	background-color:#EBEBEB;
+	border:1px solid #EBEBEB;
+}
+div#headerAdvertHolder object
+{
+	width:1000px;
+	height:105px;
+}
+
+div#newsHeaderBasePanelHolder
+{
+	width:1050px;
+	height:61px;
+	background-color:#FFFFFF;
+}
+div#newsHeaderBasePanelHolder div#catHolder
+{
+	width:1000px;
+	height:28px;
+	border-top:1px solid #D1D1D1;
+	border-bottom:1px solid #D1D1D1;
+	margin-bottom:5px;
+}
+
+div#newsHeaderBasePanelHolder div#catHolder div.item
+{
+	float:left;
+	min-width:60px;
+	width:auto;
+	border-left:1px solid #D1D1D1;
+	height:100%;
+}
+div.item div
+{
+	padding:5px;
+	color:#003366;
+	font-size:14px;
+}
+div.item div.activeCategory
+{
+	color:#E00000;
+}
+
+div#catSubCatHolder
+{
+	width:1000px;
+	height:25px;
+	background-color:#EBEBEB;
+}
+div#catNameHolder
+{
+	width:auto;
+	min-width:80px;
+	height:100%;
+	color:#FFFFFF;
+	background-color:#E10000;
+	float:left;
+	font-size:12px;
+	text-align:left;
+}
+div#pageContentHeadingHolder
+{
+	width:1050px;
+	height:56px;
+	background-color:#FFFFFF;
+	font-size:40px;
+	font-weight:bold;
+	text-align:left;
+}
+div#mainContentArea
+{
+	width:473px;
+	min-height:1230px;
+	height:auto;
+	border-right:1px solid #D1D1D1;
+	float:left;
+	text-align:left;
+}
+div#newsArticleHeading
+{
+	width:100%;
+	height:auto;
+	font-size:30px;
+	color:#003366;
+}
+div#publishDateHolder
+{
+	font-size:11px;
+	color:#E10000;
+	margin-bottom:12px;
+}
+div#newsImageHolder
+{
+	width:450px;
+	height:274px;
+	background-color:#CCCCCC;
+	margin-bottom:12px;
+}
+div#newsImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+div#opertaionsHolder
+{
+	width:450px;
+	height:23px;
+	background-color:#EBEBEB;
+	margin-bottom:14px;
+}
+div#opertaionsHolder ul
+{
+	margin:0px;
+	padding:0px;
+}
+div#opertaionsHolder li
+{
+	list-style:none;
+	float:left;
+	list-style-position:inside;
+	margin-right:20px;
+	margin-left:5px;
+	height:18px;
+	margin-top:3px;
+}
+div#opertaionsHolder li a
+{
+	text-decoration:none;
+	font-size:11px;
+	color:#000000;
+	position:relative;
+	top:-3px;
+}
+div#opertaionsHolder li a:hover
+{
+	text-decoration:underline;
+}
+div#newsTextHolder
+{
+	width:450px;
+	min-height:787px;
+	height:auto;
+	color:#333333;
+	font-size:11px;
+	margin-bottom:20px;
+}
+div#commentCountHolder
+{
+	text-align:right;
+	width:445px;
+	margin-bottom:3px;
+}
+#bottomSection
+{
+	width:983px;
+	height:316px;
+	border:9px solid #27BFE8;
+	clear:both;
+	background-color:#27BFE8;
+}
+#bottomSection a
+{
+	text-decoration:none; /*links will surround images in this section */
+	color:#FFFFFF; /*remove color around border in firefox browser*/
+}
+div#bSAdvertBig
+{
+	width:653px;
+	height:316px;
+	background-color:#FFFFFF;
+	float:left;
+}
+div#bSAdvertSmall
+{
+	width:321px;
+	height:316px;
+	background-color:#FFFFFF;
+	float:right;
+}
+div#bSAdvertSmallImageHolder
+{
+	width:301px;
+	height:267px;
+	background-color:#CCCCCC;
+}
+div#bSAdvertSmallImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+div#bsAdvertBigMainScreenHolder
+{
+	width:313px;
+	height:261px;
+	float:left;
+	margin-left:12px;
+	margin-top:10px;
+}
+div#bsAdvertBigThumbnailHolder
+{
+	width:306px;
+	height:210px;
+	float:left;
+	margin-left:10px;
+	margin-top:64px;
+}
+div#bsAdvertBigMainText
+{
+	width:100%;
+	height:31px;
+	color:#003366;
+	font-size:13px;
+	text-align:left;
+	font-weight:bold;
+	margin-top:7px;
+	margin-bottom:16px;
+}
+div#bsAdvertBigScreenImageHolder
+{
+	width:100%;
+	height:204px;
+}
+div#bsAdvertBigScreenImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+div.bsAdvertThumbnailAndTextHolder
+{
+	width:100%;
+	height:62px;
+	margin-bottom:9px;
+}
+div.bsAdvertThumbnail
+{
+	float:left;
+	width:110px;
+	height:100%;
+}
+div.bsAdvertThumbnail img
+{
+	width:100%;
+	height:100%;
+}
+div.bsAdvertThumbnailExHolder
+{
+	width:184px;
+	height:100%;
+	float:right;
+	color:#003366;
+	font-size:12px;
+	text-align:left;
+}
+#onTheNewsSection
+{
+	width:100%;
+	height:auto;
+	margin-top:12px;
+	border-top:1px solid #D1D1D1;
+}
+
+div#selectionCtrlsHolder
+{
+	margin-top:16px;
+	margin-left:10px;
+	text-align:left;
+}
+a#viewPollResults
+{
+	text-decoration:none; 
+	font-size:12px; 
+	color:#666666;
+}
+a#viewPollResults:hover
+{
+	text-decoration:underline;
+}
+
+div#ontheNewsTabHolder
+{
+	height:25px;
+	width:100%;
+	background-color:#EBEBEB;
+	margin-top:15px;
+	font-size:12px;
+	border-bottom:1px solid #D1D1D1;
+}
+div#ontheNewsTabHolder ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	margin-right:42px;
+}
+div#ontheNewsTabHolder ul li
+{
+	float:right;
+	margin-right:5px;
+	width:90px;
+	height:20px;
+	margin-top:6px;
+}
+li.onTheNewsActiveTab
+{
+	background-image:url(../images/curveTabBg.jpg);
+	color:#333333;
+	border-bottom:#FFFFFF;
+}
+li.onTheNewsInactiveTab a
+{
+	color:#00005A;
+	text-decoration:none;
+}
+li.onTheNewsInactiveTab a:hover
+{
+	text-decoration:underline;
+}
+div.otnSnipetsHolder
+{
+	width:100%;
+	height:100px;
+	border-bottom:1px solid #D1D1D1;
+	margin-top:10px;
+}
+div.otnThumbnail
+{
+	width:117px;
+	height:88px;
+	background-color:#CCCCCC;
+	float:left;
+}
+div.otnThumbnail img
+{
+	width:100%;
+	height:100%;
+}
+div.otnThumbEx
+{
+	width:200px;
+	height:86px;
+	float:left;
+	font-size:12px;
+	color:#333333;
+	text-align:left;
+	margin-left:8px;
+}
+div.otnNoThumbEx
+{
+	width:320px;
+	height:66px;
+	font-size:12px;
+	color:#333333;
+	text-align:left;
+	padding-top:10px;
+}
+#pollingBoot
+{
+	width:330px;
+	height:139px;
+	background-color:#EBEBEB;
+	margin-top:10px;
+	text-align:left;
+}
+div.sectionHeading
+{
+	border-bottom:1px solid #D1D1D1;
+	color:#E10000;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	height:26px;
+}
+span.midNewsExText
+{
+	font-size:12px;
+	color:#666666;
+}
+div#bannerContentArea
+{
+	width:176px;
+	min-height:1230px;
+	height:auto;
+	float:left;
+	margin-left:5px;
+	border:1px solid #EBEBEB;
+	background-color:#EBEBEB;
+}
+div#bannerContentHeaderHolder
+{
+	width:100%;
+	height:35px;
+	background-color:#FFFFFF;
+	margin-bottom:5px;
+}
+div#bannerAdvertHolder
+{
+	width:160px;
+	height:600px;
+	margin-top:5px;
+}
+div#bannerAdvertHolder img
+{
+	width:100%;
+	height:100%;
+}
+div#relatedNewsWithImageHolder
+{
+	width:160px;
+	height:auto;
+	margin-bottom:15px;
+	text-align:left;
+	border-bottom:1px solid #CCCCCC;
+}
+div.relatedNewsWithNoImageHolder
+{
+	width:160px;
+	height:162px;
+	border-top:1px solid #CCCCCC;
+	text-align:left;
+	padding-top:8px;
+}
+div.relatedNewHeading
+{
+	font-size:14px;
+	color:#003366;
+	text-align:left;
+	font-weight:bold;
+	width:150px;
+}
+div#relatedImageHolder
+{
+	width:137px;
+	height:72px;
+	margin-top:8px;
+}
+div#relatedImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+
+div.relatedNewsHolderEx
+{
+	color:#333333;
+	font-size:12px;
+	padding-top:20px;
+	margin-bottom:15px;
+}
+div#inTheNewsTodayHolder
+{
+	text-align:left;
+	border-top:1px solid #D1D1D1;
+	margin-top:10px; 
+	height:auto;
+	margin-bottom:25px;
+}
+ul#listNewToday12max
+{
+	margin:0px;
+	padding:0px;
+	margin-left:2px;
+	list-style-type:disc;
+}
+ul#listNewToday12max li
+{
+	list-style-position:inside;
+	margin-top:6px;
+	color:#CCCCCC;
+	font-size:12px;
+}
+ul#listNewToday12max li a
+{
+	text-decoration:none;
+	color:#668CC0;
+}
+ul#listNewToday12max li a:hover
+{
+	text-decoration:underline;
+}
+div#healthImageNewsHolder
+{
+	width:100%;
+	height:119px;
+	margin-top:12px;
+	margin-bottom:25px;
+}
+div#healthNewsImage
+{
+	width:164px;
+	height:119px;
+	float:left;
+	background-color:#FFFF99;
+	margin-left:5px;
+}
+div#healthNewsImage img
+{
+	width:100%;
+	height:100%;
+}
+div#healthNewsImageEx
+{
+	width:152px;
+	height:119px;
+	float:right;
+	text-align:left;
+}
+div.lilSnipetsHolder
+{
+	width:100%;
+	height:auto;
+	text-align:left;
+	padding-left:5px;
+}
+div.lilSnipets
+{
+	padding-top:15px;
+}
+a.readMoreLink
+{
+	text-decoration:none;
+	color:#DF0000;
+}
+label.snippetHeading
+{
+	font-weight:bold;
+}
+div#leftOptions
+{
+	float:left;
+	margin-top:5px;
+	margin-left:25px;
+}
+div#leftOptions label
+{
+	color:#FFFFFF;
+	font-size:11px;
+	margin-right:12px;
+}
+div#rightOptions
+{
+	float:right;
+	margin-top:5px;
+	margin-right:15px;
+}
+div#rightOptions label
+{
+	color:#FFFFFF;
+	font-size:11px;
+	margin-right:12px;
+}
+#bootHeading
+{
+	background-color:#E10000;
+}
+#bootHeadingText
+{
+	color:#FFFFFF;
+}

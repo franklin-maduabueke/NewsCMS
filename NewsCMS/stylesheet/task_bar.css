@@ -1,0 +1,49 @@
+/* CSS Document */
+
+#taskbar
+{
+	margin-left:0px;
+	padding-left:0px;
+	margin-top:1px;
+	padding-top:0px;
+}
+#taskbar li
+{
+	width:175px;
+	height:38px;
+	float:left;
+	margin-right:9px;
+	list-style-type:none;
+	margin-top:1px;
+	border-radius:5px 5px 0px 0px;
+}
+#taskbar li.activeTask
+{
+	background-color:#228EB6;
+	/*background-image:url(../images/tabActive.jpg);*/
+}
+#taskbar li.activeTask a
+{
+	text-shadow:#666666 1px 1px 1px;
+	font-weight:bold;
+}
+
+#taskbar li.inactiveTask
+{
+	background-color:#4FC1E9;
+}
+#taskbar li.inactiveTask:hover
+{
+	background-color:#6EC4EA;
+}
+#taskbar li div
+{
+	margin-top:10px;
+}
+#taskbar li a
+{
+	font-size:12px;
+	color:#FFFFFF;
+	display:block;
+	text-decoration:none;
+}

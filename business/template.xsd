@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com" elementFormDefault="qualified">
+
+	<xs:simpleType name="sectionHeading">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40" />
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="subcategoryID">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9_]{8}" />
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="GroupType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9_]{10}" />
+			<xs:whiteSpace value="collapse" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="section">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="heading" type="sectionHeading" />
+				<xs:element name="subcategoryLink" type="subcategoryID"/>
+				<xs:element name="articleGroup" type="GroupType" minOccurs="0" maxOccurs="1" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="sections">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="section" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="looknfeelClass">
+		<xs:sequence>
+			<xs:element name="sections"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+	</xs:complexType>
+	
+	<xs:element name="templates">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="looknfeel" type="looknfeelClass" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

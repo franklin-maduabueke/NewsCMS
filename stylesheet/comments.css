@@ -1,0 +1,177 @@
+/* CSS Document */
+
+div#commentsHolder
+{
+	height:auto;
+	width:100%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	border-top:1px solid #EBEBEB;
+}
+div.avatarAndComentsHolder
+{
+	width:100%;
+	min-height:100px;
+	height:auto;
+	border-bottom:1px solid #EBEBEB;
+}
+div.avatarHolder
+{
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	width:75px;
+	height:75px;
+}
+div.avatarHolder img
+{
+	width:100%;
+	height:100%;
+}
+div.commentsHolder
+{
+	width:530px;
+	min-height:100px;
+	height:auto;
+	float:left;
+	margin-left:25px;
+	margin-top:10px;
+	text-align:left;
+}
+div.commentLinksHolder
+{
+	height:auto;
+	width:100%;
+	background-color:#666666;
+	width:auto;
+}
+div.commentLinksHolder label
+{
+	margin-right:10px;
+}
+
+label.personName
+{
+	font-size:15px;
+	color:#000000;
+	font-weight:bold;
+	float:left;
+}
+
+label.timePeriod
+{
+	font-size:11px;
+	color:#E00000;
+	float:right;
+	font-weight:bold;
+}
+
+label.separatorTime
+{
+	font-size:12px;
+	color:#999999;
+	float:right;
+}
+
+label.reportAbuse
+{
+	font-size:11px;
+	float:right;
+	font-weight:bold;
+}
+label.reportAbuse a
+{
+	color:#336699;
+	text-decoration:none;
+}
+label.reportAbuse a:hover
+{
+	text-decoration:underline;
+}
+
+div.comment
+{
+	color:#000000;
+	font-size:12px;
+	clear:both;
+	margin-top:30px;
+	height:auto;
+}
+
+div#addCommentHolder
+{
+	width:629px;
+	min-height:310px;
+	height:auto;
+	background-color:#EAEFF5;
+	border:1px solid #CCCCCC;
+	margin-top:22px;
+	margin-bottom:20px;
+}
+div#commentEditorHolder
+{
+	margin-top:15px;
+}
+div#commentEditorHolder textarea
+{
+	width:587px;
+	height:113px;
+	color:#000000;
+	font-size:12px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
+div#addCommentHolder a
+{
+	text-decoration:none;
+	font-size:12px;
+	color:#336699;
+	margin-left:5px;
+	margin-right:5px;
+}
+div#addCommentHolder a:hover
+{
+	text-decoration:underline;
+}
+div#generatedImageCode
+{
+	width:300px;
+	height:80px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	margin-top:10px;
+	float:left;
+	margin-left:20px;
+}
+div#generatedImageCode img
+{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+
+label.requiredField
+{
+	font-size:12px;
+	color:#FF0000;
+}
+
+div#commentPageControl
+{
+	font-size:13px;
+	color:#003366;
+	height:20px;
+	border-bottom:1px dotted #EBEBEB;
+	text-align:right;
+	margin-top:25px;
+}
+div#commentPageControl a
+{
+	color:#003366;
+	margin-left:10px;
+	margin-right:10px;
+	text-decoration:none;
+}
+div#commentPageControl a:hover
+{
+	text-decoration:underline;
+}

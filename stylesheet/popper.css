@@ -1,0 +1,135 @@
+/* CSS Document */
+
+#popper
+{
+	z-index:20000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:0px;
+	background-color:#333333; /*#FF6600*/
+	color:#FFFFFF
+}
+
+div#popUp
+{
+	position:absolute;
+	z-index:25000;
+	background-color:#ADD658;
+	width:350px;
+	height:250px;
+	border:1px solid #FFFFFF;
+}
+
+div#popUpHeadingHolder
+{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	height:30px;
+	font-size:25px;
+	color:#FFFFFF;
+	text-align:left;
+	border-bottom:1px solid #FFFFFF;
+	font-weight:bold;
+}
+
+div.fileObjectHolder
+{
+	width:100%;
+	height:auto;
+	background-color:#999999;
+}
+
+#dlgShadow
+{
+	position:absolute;
+	z-index:23000;
+	background-color:#000000;
+}
+
+div.elementAttachment
+{
+	margin-bottom:15px;
+	background-color:#999999;
+}
+
+div#loading
+{
+	position:absolute;
+	z-index:25000;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+input.fileObject
+{
+	float:left;
+}
+
+div#emailBoxHolder
+{
+	z-index:200000;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:547px;
+	height:170px;
+	background-color:#27BFE8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+div#emailInfoHolder
+{
+	width:528px;
+	height:150px;
+	background-color:#EAEFF5;
+	margin-top:10px;
+}
+div#emailInfoHolder label
+{
+	font-size:12px;
+	color:#336699;
+	font-weight:bold;
+	float:left;
+}
+div#emailInfoHolder input[type=text]
+{
+	width:380px;
+	border:3px solid #FFFFFF;
+	float:left;
+	margin-left:7px;
+}
+
+div#emailInfoHolder input,label
+{
+	margin-top:5px;
+}
+div#emailButtonHolder
+{
+	clear:both;
+	margin-top:30px;
+	width:390px;
+}
+input.emailDialogButton
+{
+	width:149px;
+	height:38px;
+	background-color:#27BFE8;
+	border:0px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:14px;
+	float:right;
+	margin-left:10px;
+}
+input.emailDialogButton:hover
+{
+	background-color:#60D1EE;
+}

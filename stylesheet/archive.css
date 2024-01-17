@@ -1,0 +1,98 @@
+/* CSS Document */
+
+div.searchResultPanel
+{
+	height:106px;
+	margin-top:5px;
+}
+div.podd
+{
+	background-color:#F8F8F8;
+}
+div.peven
+{
+	background-color:#FFFFFF;
+}
+div.resultThumbTextHolder
+{
+	height:100%;
+	margin-top:10px;
+}
+div.resultThumbnail
+{
+	width:170px;
+	height:93px;
+	background-color:#FFCC33;
+	float:left;
+	margin-left:8px;
+	margin-top:6px;
+}
+div.resultThumbnail img
+{
+	height:100%;
+	width:100%;
+}
+div.resultTextHolder
+{
+	width:582px;
+	height:93px;
+	float:left;
+	margin-left:8px;
+	margin-top:6px;
+}
+div.resultHeader
+{
+	height:auto;
+	color:#003366;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+}
+div.resultContent
+{
+	height:60px;
+	font-size:11px;
+	color:#000000;
+	text-align:left;
+	margin-top:5px;
+}
+div.resultLinksHolder
+{
+	text-align:right;
+	font-size:11px;
+	color:#E10000;
+	font-weight:bold;
+}
+div.resultLinksHolder a
+{
+	color:#E10000;
+	text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
+}
+div#pagingControlHolder
+{
+	color:#27BFE8;
+	font-size:12px;
+}
+div#pagingControlHolder a
+{
+	color:#27BFE8;
+	text-decoration:none;
+	margin-left:10px;
+	margin-right:10px;
+}
+div#pagingControlHolder div
+{
+	margin-top:15px;
+}
+div#pagingControlHolder label
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+select.selectionCntrl
+{
+	width:200px;
+	border:2px solid #FFFFFF;
+}

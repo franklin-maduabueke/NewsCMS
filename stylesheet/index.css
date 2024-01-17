@@ -1,0 +1,513 @@
+/* CSS Document */
+
+#spacer
+{
+	height:12px;
+}
+a.linkImage
+{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a.transparentLink
+{
+	/* consider linking blocks of text . */
+}
+.commentLink:hover
+{
+	text-decoration:underline;
+}
+div.thumbnails
+{
+	width:89px;
+	height:72px;
+	float:left;
+	background-color:#CCCCCC;
+}
+label.date
+{
+	color:#E00000;
+}
+
+/*sections in the page. */
+#topStoriesSection
+{
+	width:100%;
+	min-height:318px;
+	height:auto;
+	border-bottom:1px solid #D1D1D1;
+	border-top:1px solid #D1D1D1;
+	border-left:1px solid #D1D1D1;
+}
+#topStoriesSection a
+{
+	text-decoration:none; /*links will surround images in this section. */
+}
+#topStoriesSection img
+{
+	width:100%;
+	height:100%;
+}
+#topStoriesHeading
+{
+	margin-top:5px;
+}
+a.readMoreLink
+{
+	text-decoration:none;
+	color:#DF0000;
+}
+div.sectionHeading
+{
+	border-bottom:1px solid #D1D1D1;
+	color:#E10000;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	height:26px;
+}
+#topStoriesBigScreenHolder
+{
+	width:325px;
+	min-height:273px;
+	height:auto;
+	margin-left:12px;
+	margin-top:7px;
+	float:left;
+}
+#topStoriesBigScreen
+{
+	width:100%;
+	height:193px;
+	margin-bottom:10px;
+	background-color:#CCCCCC;
+}
+#topStoriesBigScreenText
+{
+	width:100%;
+	height:66px;
+	text-align:left;
+}
+
+#topStoriesThumbnailHolder
+{
+	width:288px;
+	height:273px;
+	float:right;
+	margin-top:7px;
+	margin-right:12px;
+}
+div.topStoriesThunbnailAndTextHolder
+{
+	width:100%;
+	min-height:72px;
+	height:auto;
+	margin-bottom:23px;
+}
+div.topStoriesThumnailTextHolder
+{
+	float:right;
+	width:192px;
+	height:auto;
+	background-color:#FFFFFF;
+	text-align:left;
+	font-size:12px;
+}
+div.topStoriesStoryEx
+{
+	height:auto;
+	width:100%;
+	color:#666666;
+}
+
+#midLeftColumn
+{
+	width:217px;
+	height:auto;
+	color:#990033;
+	float:left;
+}
+#midRightColumn
+{
+	width:440px;
+	min-height:910px;
+	height:auto;
+	color:#990033;
+	float:right;
+	border-left:1px solid #D1D1D1;
+}
+
+#bottomSection
+{
+	width:983px;
+	height:316px;
+	border:9px solid #27BFE8;
+	clear:both;
+	background-color:#27BFE8;
+}
+#bottomSection a
+{
+	text-decoration:none; /*links will surround images in this section */
+	color:#FFFFFF; /*remove color around border in firefox browser*/
+}
+div.midLNewsSections
+{
+	text-align:left;
+	margin-top:27px;
+	width:211px;
+	height:auto;
+	border-bottom:1px solid #D1D1D1;
+}
+label.midNewsSectionsHeading
+{
+	color:#003366;
+	font-size:14px;
+	font-weight:bold;
+}
+span.midNewsExText
+{
+	font-size:12px;
+	color:#666666;
+}
+
+div#connectToUs
+{
+	border-bottom:1px dotted #D1D1D1;
+	height:auto;
+	width:211px;
+	text-align:left;
+}
+#connectToUs ul
+{
+	margin:0px;
+	padding:0px;
+}
+#connectToUs ul li
+{
+	list-style:none;
+	border-top:1px dotted #D1D1D1;
+	height:30px;
+	width:100%;
+}
+#connectToUs ul li a
+{
+	text-decoration:none;
+	color:#666666;
+	font-size:12px;
+	margin-left:10px;
+}
+#connectToUs ul li div
+{
+	margin-top:8px;
+}
+div.midRNews
+{
+	width:432px;
+	height:auto;
+	float:right;
+	border-top:1px solid #D1D1D1;
+	text-align:left;
+}
+div#midRNWithImageScreen
+{
+	width:139px;
+	height:114px;
+	margin-top:10px;
+	float:left;
+}
+div.midRNews img
+{
+	width:100%;
+	height:100%;
+}
+div#midRNWithImageExHolder
+{
+	width:255px;
+	height:117px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+div#midRNewsBottomSection
+{
+	width:432px;
+	height:388px;
+	border-top:1px solid #D1D1D1;
+	float:right;
+	text-align:left;
+}
+div.midBottomThumbnailAndTextHolder
+{
+	width:410px;
+	height:104px;
+	clear:both;
+	margin-top:10px;
+}
+div.midBottomThumbnailHolder
+{
+	width:111px;
+	height:103px;
+	background-color:#EBEBEB;
+	float:left;
+	text-align:center;
+}
+div.midBottomThumbnailHolder img
+{
+	width:103px;
+	height:93px;
+	margin-top:5px;
+}
+div.midBottomTextHolder
+{
+	width:292px;
+	height:103px;
+	float:right;
+}
+#topRadvertSection
+{
+	width:100%;
+	height:274px;
+	background-color:#EBEBEB;
+}
+#onTheNewsSection
+{
+	width:100%;
+	height:auto;
+	margin-top:12px;
+	border-top:1px solid #D1D1D1;
+}
+#businessAroundTheWorldSection
+{
+	width:100%;
+	height:auto;
+	margin-top:8px;
+	border-top:1px solid #D1D1D1;
+}
+div.lilSnipetsHolder
+{
+	width:100%;
+	height:60px;
+	border-bottom:1px solid #D1D1D1;
+	text-align:left;
+}
+div.lilSnipets
+{
+	padding-top:15px;
+}
+#pollingBoot
+{
+	width:330px;
+	height:139px;
+	background-color:#EBEBEB;
+	margin-top:10px;
+	text-align:left;
+}
+
+label.snippetHeading
+{
+	font-weight:bold;
+}
+
+div#selectionCtrlsHolder
+{
+	margin-top:16px;
+	margin-left:10px;
+	text-align:left;
+}
+a#viewPollResults
+{
+	text-decoration:none; 
+	font-size:12px; 
+	color:#666666;
+}
+a#viewPollResults:hover
+{
+	text-decoration:underline;
+}
+
+div#ontheNewsTabHolder
+{
+	height:25px;
+	width:100%;
+	background-color:#EBEBEB;
+	margin-top:15px;
+	font-size:12px;
+	border-bottom:1px solid #D1D1D1;
+}
+div#ontheNewsTabHolder ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	margin-right:42px;
+}
+div#ontheNewsTabHolder ul li
+{
+	float:right;
+	margin-right:5px;
+	width:90px;
+	height:20px;
+	margin-top:6px;
+}
+li.onTheNewsActiveTab
+{
+	background-image:url(../images/curveTabBg.jpg);
+	color:#333333;
+	border-bottom:#FFFFFF;
+}
+li.onTheNewsInactiveTab a
+{
+	color:#00005A;
+	text-decoration:none;
+}
+li.onTheNewsInactiveTab a:hover
+{
+	text-decoration:underline;
+}
+div.otnSnipetsHolder
+{
+	width:100%;
+	height:100px;
+	border-bottom:1px solid #D1D1D1;
+	margin-top:10px;
+}
+div.otnThumbnail
+{
+	width:117px;
+	height:88px;
+	background-color:#CCCCCC;
+	float:left;
+}
+div.otnThumbnail img
+{
+	width:100%;
+	height:100%;
+}
+div.otnThumbEx
+{
+	width:200px;
+	height:86px;
+	float:left;
+	font-size:12px;
+	color:#333333;
+	text-align:left;
+	margin-left:8px;
+}
+div.otnNoThumbEx
+{
+	width:320px;
+	height:66px;
+	font-size:12px;
+	color:#333333;
+	text-align:left;
+	padding-top:10px;
+}
+div#toptRadvertSectionAdvertHolder
+{
+	width:304px;
+	height:251px;
+	background-color:#FFFFFF;
+	float:left;
+	margin-top:10px;
+	margin-left:13px;
+}
+div#toptRadvertSectionAdvertHolder img
+{
+	width:100%;
+	height:100%;
+}
+
+div#bSAdvertBig
+{
+	width:653px;
+	height:316px;
+	background-color:#FFFFFF;
+	float:left;
+}
+div#bSAdvertSmall
+{
+	width:321px;
+	height:316px;
+	background-color:#FFFFFF;
+	float:right;
+}
+div#bSAdvertSmallImageHolder
+{
+	width:301px;
+	height:267px;
+	background-color:#CCCCCC;
+}
+div#bSAdvertSmallImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+div#bsAdvertBigMainScreenHolder
+{
+	width:313px;
+	height:261px;
+	float:left;
+	margin-left:12px;
+	margin-top:10px;
+}
+div#bsAdvertBigThumbnailHolder
+{
+	width:306px;
+	height:210px;
+	float:left;
+	margin-left:10px;
+	margin-top:64px;
+}
+div#bsAdvertBigMainText
+{
+	width:100%;
+	height:31px;
+	color:#003366;
+	font-size:13px;
+	text-align:left;
+	font-weight:bold;
+	margin-top:5px;
+	margin-bottom:16px;
+}
+div#bsAdvertBigScreenImageHolder
+{
+	width:100%;
+	height:204px;
+}
+div#bsAdvertBigScreenImageHolder img
+{
+	width:100%;
+	height:100%;
+}
+div.bsAdvertThumbnailAndTextHolder
+{
+	width:100%;
+	height:62px;
+	margin-bottom:9px;
+}
+div.bsAdvertThumbnail
+{
+	float:left;
+	width:110px;
+	height:100%;
+}
+div.bsAdvertThumbnail img
+{
+	width:100%;
+	height:100%;
+}
+div.bsAdvertThumbnailExHolder
+{
+	width:184px;
+	height:100%;
+	float:right;
+	color:#003366;
+	font-size:12px;
+	text-align:left;
+}
+div#bootHeadingText
+{
+	color:#003366;
+}

@@ -1,0 +1,304 @@
+/* CSS Document */
+#pageContainter
+{
+	border-bottom:4px solid #E10000;
+}
+
+body
+{
+	margin:0px;
+	background-color:#EBEBEB;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#EBEBEB;
+}
+.clickable
+{
+	cursor:pointer;
+}
+#header
+{
+	width:100%;
+	height:110px;
+	border-top:4px solid #000000;
+	background-image:url(../images/headerBg.jpg);
+	background-repeat:repeat-x;
+}
+#headerContentHolder
+{
+	width:1150px;
+}
+#headerAdsHorizontalHolder
+{
+	width:335px;
+	height:78px;
+	background-color:#FFFFFF;
+	margin-top:17px;
+	margin-left:29px;
+}
+
+div#searchBarHolder
+{
+	margin-top:25px;
+	width:450px;
+	height:26px;
+}
+div#headerSearchBar
+{
+	width:378px;
+	height:26px;
+	background-image:url(../images/searchBarCurve.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	float:left;
+}
+div#searchButtonHolder
+{
+	width:72px;
+	height:100%;
+	float:left;
+}
+div#searchButtonHolder input
+{
+	background-color:#E10000;
+	color:#FFFFFF;
+	width:100%;
+	height:100%;
+	border:0px;
+}
+div#searchButtonHolder input:hover
+{
+	background-color:#C60000;
+}
+div#searchBarBaseMenu
+{
+	margin-top:10px;
+	font-size:13px;
+	color:#FFFFFF;
+	width:455px;
+}
+div#searchBarBaseMenu label
+{
+	margin-right:15px;
+	margin-left:15px;
+	color:#FFFFFF
+}
+div#searchBarBaseMenu a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+div#searchBarBaseMenu a:hover
+{
+	text-decoration:underline;
+}
+
+#logoHolder
+{
+	width:209px;
+	height:auto;
+	float:left;
+	/*margin-left:54px;*/
+}
+#logo
+{
+	width:209px;
+	height:110px;
+	background-image:url(../images/logo1.jpg);
+	background-repeat:no-repeat;
+}
+#headerMid
+{
+	width:524px;
+	height:110px;
+	background-image:url(../images/headerMidBg.jpg);
+	float:left;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+}
+#headerMid div#socialLinks
+{
+	width:300px;
+	height:20px;
+	margin-top:5px;
+	color:#FFFFFF;
+}
+
+#headerMid div#socialLinks ul
+{
+	padding:0px;
+	margin:0px;
+}
+#headerMid div#socialLinks ul li
+{
+	float:left;
+	list-style-type:none;
+	margin-left:10px;
+}
+#headerMid div#socialLinks ul li a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:12px;
+	margin-left:10px;
+}
+
+#headerRight
+{
+	width:415px;
+	height:110px;
+	background-image:url(../images/headerRightBg.jpg);
+	float:left;
+	text-align:left;
+}
+#headerBasePanelHolder
+{
+	width:1050px;
+	height:30px;
+	background-color:#FFFFFF;
+	margin-bottom:9px;
+	text-align:left;
+}
+
+#pageContentHolder
+{
+	width:1050px;
+	height:auto;
+	background-color:#FFFFFF;
+}
+
+#pageContentMainBlock
+{
+	width:1000px;
+	height:auto;
+	background-color:#FFFFFF;
+}
+#pageLeftColumn
+{
+	width:661px;
+	min-height:1230px;
+	height:auto;
+	float:left;
+	margin-top:12px;
+	border-right:1px solid #EBEBEB;
+	background-color:#FFFFFF;
+}
+#pageRightColumn
+{
+	width:330px;
+	height:auto;
+	float:right;
+	margin-top:12px;
+	background-color:#FFFFFF;
+}
+#siteMapHolder
+{
+	width:1050px;
+	background-color:#E10000;
+	height:auto;
+}
+div.siteMapCategoryHolder
+{
+	float:left;
+	width:auto;
+	height:auto;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:20px;
+}
+div.siteMapCategoryHolder ul
+{
+	margin:0px;
+	margin-right:5px;
+	padding:0px;
+}
+div.siteMapCategoryHolder ul li
+{
+	list-style-type:none;
+	color:#CCCCCC;
+	border-bottom:1px dotted #CCCCCC;
+}
+div.siteMapCategoryHolder ul li a
+{
+	text-decoration:none;
+	font-size:11px;
+	color:#CCCCCC;
+}
+div.siteMapCategoryHolder ul li.categoryName
+{
+	list-style-type:none;
+	border:0px;
+}
+div.siteMapCategoryHolder ul li.categoryName a
+{
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#footer
+{
+	width:1050px;
+	height:150px;
+	background-color:#FFFFFF;
+	text-align:left;
+	/*clear:both;*/
+}
+div#footerContentHolder
+{
+	margin-left:26px;
+}
+div.catItemsHolder
+{
+	height:30px;
+	padding-top:5px;
+}
+div.catItemsHolder label
+{
+	font-size:12px;
+	margin-right:27px;
+	color:#E00000;
+}
+div.catItemsHolder label a
+{
+	color:#003366;
+	text-decoration:none;
+}
+div.catItemsHolder label a:hover
+{
+	text-decoration:underline;
+}
+
+#copyrights
+{
+	font-size:12px;
+	color:#666666;
+}
+#copyrights label
+{
+	margin-right:10px;
+}
+
+#subcategoryHolder
+{
+	float:left;
+	font-size:12px;
+	margin-top:5px;
+}
+#subcategoryHolder label
+{
+	color:#E10000;
+	margin-left:10px;
+	margin-right:10px;
+}
+#subcategoryHolder a
+{
+	color:#003366;
+	text-decoration:none;
+}
+#subcategoryHolder a:hover
+{
+	text-decoration:underline;
+}

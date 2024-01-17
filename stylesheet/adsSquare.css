@@ -1,0 +1,23 @@
+/* CSS Document */
+
+div.topRadvertSection
+{
+	width:100%;
+	height:274px;
+	background-color:#EBEBEB;
+}
+
+div.toptRadvertSectionAdvertHolder
+{
+	width:304px;
+	height:251px;
+	background-color:#FFFFFF;
+	float:left;
+	margin-top:10px;
+	margin-left:13px;
+}
+div.toptRadvertSectionAdvertHolder img
+{
+	width:100%;
+	height:100%;
+}
